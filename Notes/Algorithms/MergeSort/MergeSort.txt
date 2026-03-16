@@ -1,0 +1,38 @@
+Algorithm Type: Divide & Conquer Sorting
+Time Complexity: O(n log n) 
+Space Complexity: O(n)
+
+Desc: 
+1. Divides input list into two sublists.
+   - Till one element
+2. Merges pairs of sorted sublists. 
+   - Compares smallest elements 
+   - Appends them in order
+   - Continues till a single sorted array results
+
+Complexity & Efficiency
+- A recursive level performs linear-time merges 
+  over all elements
+- log n levels
+
+Worst Case vs. Average Case
+WC == AC 
+
+Variants
+- Top-Down Merge Sort
+- Bottom-Up Merge Sort 
+- External Merge Sort
+- Tim Sort
+
+Applications: 
+- Database engines
+- Linked-list sorting
+- External storage 
+
+Sample:
+6 5 12 10 9 1
+LEFT_1: 6 5 12
+LEFT_11: 6
+LEFT_12: 5 12
+RIGHT_1: 10 9 1
+
