@@ -1,0 +1,42 @@
+Utilized a Hashmap for faster average lookup cases.
+
+import java.util.HashMap;
+
+HashMap<Integer, Integer> map = new HashMap<>();
+
+// Insert / Update
+map.put(key, value);
+Runtime:
+Avg: O(1)
+Worst Case: O(n)
+
+// Lookup
+map.get(key);              // returns null if not found
+map.getOrDefault(key, 0);  // returns 0 if not found (safer)
+Runtime:
+Avg: O(1)
+Worst Case: O(n)
+
+// Check existence
+map.containsKey(key);      // true/false
+Runtime:
+Avg: O(1)
+Worst Case: O(n)
+
+// Delete
+map.remove(key);
+Runtime:
+Avg: O(1)
+Worst Case: O(n)
+
+// Size
+map.size();
+Runtime:
+Avg: O(1)
+Worst Case: O(n)
+
+// Check empty
+map.isEmpty();
+Runtime:
+Avg: O(1)
+Worst Case: O(n)
