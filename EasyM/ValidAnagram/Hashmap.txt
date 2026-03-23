@@ -1,0 +1,1 @@
+Used hasmap to log unique characters
